@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "pre-commit-msg"
-version = "0.1.0"
+version = "0.1.1"
 authors = [
   { name="Hugo Viana", email="hugosemianoviana@gmail.com" },
 ]
@@ -20,7 +20,7 @@ classifiers = [
     "Topic :: Software Development",
 ]
 
-[project.entry-points.console_scripts]
+[project.scripts]
 pre-commit-msg = "pre_commit_msg.hook:main"
 
 [project.urls]
